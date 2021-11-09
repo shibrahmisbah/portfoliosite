@@ -26,6 +26,27 @@
      <link href="./fontawesome-free-5.15.4-web/css/brands.css" rel="stylesheet">
      <link href="./fontawesome-free-5.15.4-web/css/solid.css" rel="stylesheet">
 
+     <style>
+         .imgcontainer{
+             min-height:100%;
+             display:flex;
+             flex-wrap:wrap;
+             column-gap:0px;
+             flex-direction:row;
+         }
+
+         .imgcontainer > div{
+             display:flex;
+             flex-basis: calc(50% - 40px);
+             justify-content: center;
+             flex-direction: column;
+         }
+
+         .col{
+             margin: 10px;
+         }
+     </style>
+
 </head>
 <body>
     <header>
@@ -59,6 +80,20 @@
         <h3>SALES FX PROJECT</h3>
         <p>A javafx project that demonstrates a program designed to input data record from users and store it in a file.</p>
         <img src="./img/java_project1.png" alt="Java Project 1" >
+        <p><a href="https://github.com/shibrahmisbah/SalesFXProject">Visit Project</a></p>
+    </div>
+
+    <div class="portfolio-item-individual">
+        <h3>CRUD Operations Java Project</h3>
+        <p>A Spring boot project based on a dog show registration site designed to accept basic user input and use that 
+            information to record each entry, edit and delete specific entries, and classify the various breeds by the type
+            of dog registered for the show.</p>
+        <div class="imgcontainer">
+            <div class="col"><img class="jp1" src="./img/homepage1.png" alt="Pg1" ></div>
+            <div class="col"><img class="jp1" src="./img/page2.png" alt="Pg2"></div>
+            <div class="col"><img class="jp1" src="./img/page4.png" alt="Pg4" ></div>
+            <div class="col"><img class="jp1" src="./img/page5.png" alt="Pg5" ></div>
+        </div>
         <p><a href="https://github.com/shibrahmisbah/SalesFXProject">Visit Project</a></p>
     </div>
 
